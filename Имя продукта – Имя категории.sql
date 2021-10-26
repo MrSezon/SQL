@@ -1,0 +1,1 @@
+SELECT products.name, categories.name FROM products LEFT JOIN categories ON products.categoriesId = categories.id;
